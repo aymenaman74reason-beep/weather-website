@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="weather.css">
+    <script src="script.js" defer>
+    </script>
+    <title>Weather App</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>AYM3N</h1>
+            <p>HOME</p>
+            <p>WEATHER</p>
+            <p>CONTACT US</p>
+        </nav>
+    </header>
+    <div class="card">
+        <div class="search">
+            <input type="text"  spellcheck="false" placeholder="Enter your city name" class="search-bar">
+            <button><i class='bx bx-search' style="color: wheat;"></i></button>
+        </div>
+        <div class="weather loading"> 
+            <h2 class="city">Weather in </h2>
+            <h2 class="temp">22&deg;c</h2>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/04d.png" alt="" class="icon">
+                <div class="description">Cloudy</div>
+             </div>
+                <div class="humidity"> </div>
+                <div class="wind">wind speed:5km/hr</div>
+        </div>
+    </div>    
+</body>
+</html> 
